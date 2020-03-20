@@ -1,0 +1,164 @@
+*{
+
+padding: 0px;
+margin: 0px;
+	}
+
+
+#masg{
+
+
+
+width: 30%;
+height: auto;
+padding: 3%;
+margin-left: 5%;
+border-radius: 40px;
+background-color: rgb(77, 184, 255 , 0.6);
+border-color: cyan;
+
+}
+
+#wrapper{
+
+width: 70%;
+margin: 10px auto ;
+background:rgb(255 ,  255 , 255 , 0.7);
+padding: 20px;
+border-radius: 50px;
+border-width: 5px;
+border-color: cyan;
+
+}
+
+
+
+
+
+
+
+#men{
+
+	background-color: rgb(255 , 255 , 255 , 0);
+	border-color: rgb(255 , 255 , 255 , 0);
+	padding: 1%;
+
+}
+#men>a{
+
+color:rgb(0 , 0 ,0 ,0);
+text-decoration: none;
+
+}
+
+#men>a:hover{
+
+color:rgb(0 , 0 ,0 ,0.6);
+
+
+
+}
+
+
+
+
+
+
+
+
+
+button{
+
+	border-radius: 40px;
+	margin: 1px;
+}
+button:hover{
+background-color: cyan;
+border-color: cyan;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.chat_wrapper{
+	width: 70%;
+	margin: 10px auto ;
+	background:rgb(255,255,255,0.6);
+	border-radius: 30px;
+
+}
+#chat{
+	min-height: 500px;
+	border:1px solid #b3b3b3;
+	padding: 10px;
+	background:url('../img/image.jpg');
+	background-repeat: no-repeat;
+	  background-attachment: fixed;
+	  background-size: 1000px 1000px;
+	  overflow-y:auto;
+	  max-height: 700px;
+border-radius: 30px;
+
+}
+
+
+#chat::-webkit-scrollbar-track
+{
+	border: 1px solid cyan;
+	background-color: #F5F5F5;
+	border-radius: 50px;
+	height: 90%;
+}
+
+#chat::-webkit-scrollbar
+{
+	width: 10px;
+	background:linear-gradient(red, yellow);
+}
+
+#chat::-webkit-scrollbar-thumb
+{
+	background-color: cyan;
+	border-radius: 50px;	
+}
+.textarea{
+	width: 91%;
+	outline: none;
+	border:1px solid #b3b3b3;
+	padding: 30px;
+	margin-top: 20px;
+	border-radius: 50px;
+}
+h1{
+margin-left: 34%;
+}
+#mseg{
+
+
+border-radius: 75px;
+width: 60%
+
+
+
+}
+body{
+
+background:url('../img/th.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 100% 100%;
+}
